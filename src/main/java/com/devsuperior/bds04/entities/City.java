@@ -1,5 +1,7 @@
 package com.devsuperior.bds04.entities;
 
+import lombok.Data;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -12,6 +14,7 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "tb_city")
+@Data
 public class City {
 	
 	@Id
